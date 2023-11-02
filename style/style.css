@@ -70,4 +70,21 @@ nav ul li a{
     display: inline-block;
     color: #fff;
     font-size: 180px;
+
+
 }
+
+.widget-shape{
+    cursor: pointer;
+    left: 0px;
+    top: 0px;
+    font-size: 0px;
+    line-height: 0;
+
+}
+
+.widget-shape img {
+    display: block;
+    width: 100%;
+}
+
