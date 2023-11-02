@@ -63,28 +63,62 @@ nav ul li a{
     line-height: normal;
     text-transform: uppercase;
     font-size: 180px;
+    transition: 0.4s
 }
 
+/*!Главная страница - заголовок_transparent!*/
+.content h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+/*!Главная страница - навигация_расположение!*/
 .content a{
     text-decoration: none;
     display: inline-block;
     color: #fff;
     font-size: 180px;
-
-
 }
 
+/*!Главная страница - скролл!*/
 .widget-shape{
     cursor: pointer;
     left: 0px;
     top: 0px;
     font-size: 0px;
     line-height: 0;
-
 }
 
+/*!Главная страница - скролл_отображение!*/
 .widget-shape img {
     display: block;
     width: 100%;
 }
 
+/*!Главная страница - фоновое видео!*/
+.background-video{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/*!Главная страница - навигация_фулл!*/
+.navigation-top-wrapper{
+
+}
+
+
+@media (min-aspect-ratio: 16/9){
+    .background-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .background-video{
+        width: auto;
+        height: 100%;
+    }
+}
