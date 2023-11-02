@@ -6,25 +6,61 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<div class="intro__section">
+<div class="content-wrapper">
 
-    <video autoplay loop muted playsinline class="background-video">
-        <source src="media/video_main.mp4" type="video/mp4">
-    </video>
 
-    <nav class="navigation-top-wrapper">
-        <img src="media/SOULQUARIANS.svg" alt="SOULQUARIANS" class="logo">
+    <nav class="navigation-primary-container">
+        <a href="index.html">
+            <img src="media/SOULQUARIANS.svg" alt="SOULQUARIANS" class="logo"></a>
         <ul>
-            <li><a href="index.html">ИСТОРИЯ</a></li>
-            <li><a href="#">АЛЬБОМЫ</a></li>
-            <li><a href="#">МАГАЗИН</a></li>
-            <li><a href="#">ДРУГОЕ</a></li>
+            <li class="navigation-primary-item">
+                <a href="index.html"
+                   onclick="trackingController.trackEvent('customTracking', 'Top Navigation', 'index.html', 'History');trackingController.trackCDPlink('category_clicked', 'History')"
+                   class="navigation-primary-link" tabindex="1">
+                    <span class="navigation-primary-link-title underline">История</span>
+                </a>
+            </li>
+            <li class="navigation-primary-item"><a href="#"
+                   onclick="trackingController.trackEvent('customTracking', 'Top Navigation', '', '');trackingController.trackCDPlink('category_clicked', '')"
+                   class="navigation-primary-link" tabindex="2"><span class="navigation-primary-link-title ">Альбомы</span></a>
+            </li>
+            <li class="navigation-primary-item"><a href="#"
+                   onclick="trackingController.trackEvent('customTracking', 'Top Navigation', 'index.html', 'History');trackingController.trackCDPlink('category_clicked', 'History')"
+                   class="navigation-primary-link" tabindex="3"><span class="navigation-primary-link-title ">Магазин</span></a>
+            </li>
+            <li class="navigation-primary-item"><a href="#"
+                   onclick="trackingController.trackEvent('customTracking', 'Top Navigation', 'index.html', 'History');trackingController.trackCDPlink('category_clicked', 'History')"
+                   class="navigation-primary-link" tabindex="4"><span class="navigation-primary-link-title ">Другое</span></a>
+            </li>
         </ul>
     </nav>
-    <div class ="content">
-        <div><h1>SOULQUARIANS</h1></div>
-        <a href="javascript:void(0)" target="_self"><div class="widget-shape"><img src="media/arrow.png"></div></a>
+
+    <div class="components">
+        <div></div>
+        <div class="header">
+            <div class="header-container">
+                <div class="video-container">
+                    <video preload="auto" playsinline autoplay muted loop poster id="headerCopyVideoDesktop"
+                           width="0" height="780" class="show">
+                        <source src="media/video_main.mp4" type="video/mp4">
+                    </video>
+
+
+                    <div class="content-container">
+                        <div class="text-container" style="opacity: 1;"><h1>SOULQUARIANS</h1></div>
+                        <a href="javascript:void(0)" target="_self">
+                            <div class="widget-shape"><img src="media/arrow.png"></div>
+                        </a></div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="quote-header-text"></div>
     </div>
+
+    <footer class="footer"></footer>
+
 </div>
 </body>
 </html>

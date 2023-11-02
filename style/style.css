@@ -1,20 +1,32 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: 'Montserrat', sans-serif;
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/*!Главная страница - видео!*/
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-/*!Главная страница - видео!*/
-.intro__section{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
-    position: relative;
-    padding: 0 5%;
-    display: flex;
-    align-items: center;
-    justify-content:center;
+.header .video-container video.show {
+    display: block;
+}
+
+.video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
+    object-fit: cover;
 }
 
 /*!Главная страница - навигация_лого!*/
@@ -35,27 +47,79 @@ nav .logo{
     height: 26px;
 }
 
+.header{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.header-container{
+    width: 100%;
+    height: 100%;
+}
+.header .video-container{
+    position: relative;
+    height:inherit;
+}
+
+
+nav.navigation-primary-container ul {
+    position: relative;
+}
+
+nav.navigation-primary-container ul .navigation-primary-item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .video-container video.show {
+    display: block;
+}
+
+.header .video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
+    object-fit: cover;
+}
 /*!Главная страница - навигация - расположение!*/
-nav ul li{
+/*nav ul li{
     list-style: none;
     display: inline-block;
     margin-left: 196px;;
-}
+}*/
 
 /*!Главная страница - навигация - оформление!*/
-nav ul li a{
+/*nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 20px;
-}
+}*/
 
+
+
+nav.navigation-primary-container ul .navigation-primary-item .navigation-primary-link {
+    font-size: 18px;
+    line-height: .89;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 27px;
+}
 /*!Главная страница - контент!*/
-.content{
-    text-align: center;
+.components{
+    position: relative;
+    background-color: var(--pearl-lusta);
 }
 
 /*!Главная страница - заголовок!*/
-.content h1{
+
+
+/*!Главная страница - заголовок_transparent!*/
+
+
+.text-container h1{
     color: #fff;
     font-family: Suprapower SE Heavy;
     font-style: normal;
@@ -63,22 +127,18 @@ nav ul li a{
     line-height: normal;
     text-transform: uppercase;
     font-size: 180px;
-    transition: 0.4s
+    transition: 0.5s;
 }
 
-/*!Главная страница - заголовок_transparent!*/
-.content h1:hover{
+
+.text-container h1:hover{
     -webkit-text-stroke: 2px #fff;
     color: transparent;
 }
 
+
 /*!Главная страница - навигация_расположение!*/
-.content a{
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    font-size: 180px;
-}
+
 
 /*!Главная страница - скролл!*/
 .widget-shape{
@@ -103,22 +163,52 @@ nav ul li a{
     z-index: -1;
 }
 
+text-container{
+    width: 100%;
+    max-width: 1685px;
+    margin: 0 auto;
+    text-align:center;
+}
+.header .content-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
 /*!Главная страница - навигация_фулл!*/
-.navigation-top-wrapper{
+.navigation-primary-container{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 27px;
+    width: 80%;
+    position: relative;
+    background-color: #000;
+    z-index: 100;
+    box-sizing: content-box;
+}
+.navigation-primary-link-title{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 
 }
 
 
-@media (min-aspect-ratio: 16/9){
-    .background-video{
-        width: 100%;
-        height: auto;
-    }
+.navigation-primary-link-title.underline{
+    text-decoration-line: underline;
+
 }
 
-@media (max-aspect-ratio: 16/9){
-    .background-video{
-        width: auto;
-        height: 100%;
-    }
-}
