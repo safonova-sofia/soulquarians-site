@@ -448,3 +448,47 @@ html{
     vertical-align: baseline;
     scroll-behavior: smooth;
 }
+article{
+display: block;
+}
+.article-wrapper{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-right: 96px;
+    padding-left: 96px;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.inner-wrapper{
+    width: 40%;
+    max-width: 1800px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title{
+    color: #FFF;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+.title-wrapper{
+    margin-bottom: 44px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-content-wrapper{
+padding-right: 0;
+width: 100%;
+float: left;
+margin: 0 0 3vw 0;
+}
