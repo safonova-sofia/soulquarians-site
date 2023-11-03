@@ -539,8 +539,35 @@ line-height: 32px;
 
 }
 .content-container p{
-white-space: normal;
+    white-space: normal;
     margin-top: 0;
-        word-wrap: break-word;
-            margin: 1rem 0;
+    word-wrap: break-word;
+    margin: 1rem 0;
+}
+
+.quote {
+  padding-left: 50px;
+  border-left: 4px solid #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 2rem 0;
+}
+.quote p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+    white-space: normal;
+    margin-top: 0;
+    word-wrap: break-word;
+
+}
+.quote cite {
+  font-style: italic;
+  color: #FFF;
+
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 32px
 }
