@@ -116,6 +116,7 @@ nav ul li ul li a{
 nav ul li:hover > ul{
     display:initial;
 }
+
 /*padding-left: 10%;
     padding-right: 10%;
     padding-top: 27px;
@@ -361,3 +362,17 @@ position: sticky;
 .navigation-primary-item:hover{
     transform: scale(1.05);
 }*/
+
+.quote-header-wrapper{
+
+    background: #fff;
+    width: 100%;
+
+    width: inherit;
+
+    padding-left: 122px;
+    padding-right:  122px;
+    padding-top: 139px;
+    padding-bottom: 237px;
+
+}
