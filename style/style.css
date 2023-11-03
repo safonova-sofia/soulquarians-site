@@ -16,6 +16,7 @@ body {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    background-color: #000;
 }
 
 .header .video-container video.show {
@@ -110,7 +111,7 @@ nav.navigation-primary-container ul .navigation-primary-item .navigation-primary
 /*!Главная страница - контент!*/
 .components{
     position: relative;
-    background-color: var(--pearl-lusta);
+    background-color: #000000;
 }
 
 /*!Главная страница - заголовок!*/
