@@ -365,14 +365,85 @@ position: sticky;
 
 .quote-header-wrapper{
 
-    background: #fff;
-    width: 100%;
+    background: #000;
 
-    width: inherit;
 
-    padding-left: 122px;
-    padding-right:  122px;
-    padding-top: 139px;
-    padding-bottom: 237px;
+
+
+    padding-left: 5%;
+    padding-right:  5%;
+    padding-top: 10.5%;
+    padding-bottom: 10%;
 
 }
+
+.blockquote {
+    position: relative;
+    padding: 16px 24px;
+    margin: 16px 46px;
+
+
+
+    font-size:  48px;
+    text-align: center;
+}
+.blockquote:before,
+.blockquote:after {
+    position: absolute;
+    color: #000;
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+
+    -webkit-text-stroke: 1px #FFFFFF; /* Толщина и цвет обводки */
+    text-stroke: 1px #FFFFFF;
+
+}
+.blockquote:before {
+    content: '“';
+    left: -30px;
+    top: -10px;
+}
+.blockquote:after {
+    content: '”';
+    right: -30px;
+    top:0;
+}
+
+.blockquote p{
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.blockquote cite {
+
+    padding-top: 10px;
+    display: block;
+
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    }
