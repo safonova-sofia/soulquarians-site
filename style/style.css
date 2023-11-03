@@ -446,4 +446,5 @@ html{
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    }
+    scroll-behavior: smooth;
+}
