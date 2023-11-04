@@ -795,4 +795,36 @@ input[type="email" i] {
 
 }
 
+.tracklist-container{
+    padding: 2em 0;
+}
 
+
+/*.discography {
+    width: 80%;
+    border-collapse: collapse;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    position: relative;
+}
+
+.discography th {
+    border:2px solid white;
+    padding: 18px 0;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: normal;
+    background-color:#000;
+}
+
+.discography td {
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px dashed white;
+    padding: 18px 0;
+    font-weight: 700;
+}*/
