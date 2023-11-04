@@ -474,7 +474,7 @@ display: block;
 .title{
     color: #FFF;
     text-align: left;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -762,5 +762,37 @@ input[type="email" i] {
     border: 2px solid #fff;
 }
 
+
+.title--album{
+    color: #FFF;
+    font-family: Suprapower SE Heavy;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    margin-block-end: 0;
+}
+
+
+
+.subtitle--album{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.video-container iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
 
 
