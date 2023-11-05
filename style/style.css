@@ -820,6 +820,7 @@ input[type="email" i] {
     font-size: 24px;
     line-height: 32px;
     position: relative;
+
 }
 
 .reviews th {
@@ -838,6 +839,22 @@ input[type="email" i] {
     padding: 18px 0;
     font-weight: 700;
     font-style: normal;
+
+}
+
+.reviews td a{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.reviews td a:hover{
+    text-decoration-line: underline;
 }
 
 .line-stars{
@@ -874,10 +891,6 @@ input[type="email" i] {
 
 }
 
-.link-list-text{
-
-}
-
 .link-list-title ol > li{
     margin: 1pc 0;
     border: none;
@@ -893,4 +906,8 @@ input[type="email" i] {
     font-weight: 400;
     line-height: 32px;
     text-transform: uppercase;
+}
+
+.title-wrapper-closer{
+margin-bottom: 0;
 }
