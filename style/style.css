@@ -10,13 +10,15 @@
     background-color: #000;
     box-sizing: border-box;
 
-    padding-top: 0.8%;
-    padding-bottom: 0.8%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    border: 1px solid #000;
+    border-bottom: 1px solid #fff;
 }
 
 nav{
@@ -732,7 +734,7 @@ input[type="email" i] {
     font-size: 100%;
     background: #000;
     display: flex;
-    border-top: 2px solid #FFF;
+    border-top: 1px solid #FFF;
     flex-direction: row;
     flex-wrap: nowrap;
 
@@ -841,4 +843,51 @@ input[type="email" i] {
     align-items: center;
     align-content: center;
     justify-content: center;
+}
+
+.content-container > ul{
+    margin:0;
+
+}
+
+.link-list-title{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+    text-transform: uppercase;
+}
+
+.link-list-title li a{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+
+}
+
+.link-list-text{
+
+}
+
+.link-list-title ol > li{
+    margin: 1pc 0;
+    border: none;
+}
+
+.link-list-title ol{
+    border: none;
+    margin: 2pc 0;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
 }
