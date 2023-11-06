@@ -86,6 +86,7 @@ nav ul li a:hover{
     background: #fff;
     color: #000;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 nav ul li ul{
@@ -770,6 +771,7 @@ input[type="email" i] {
     background: #000;
     color: #fff;
     border: 2px solid #fff;
+    transition: 0.3s;
 }
 
 
@@ -855,6 +857,7 @@ input[type="email" i] {
 
 .reviews td a:hover{
     text-decoration-line: underline;
+
 }
 
 .line-stars{
@@ -1060,6 +1063,7 @@ form {
     align-content: center;
     flex-wrap: nowrap;
     flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .form--feedback .form__rows {
@@ -1124,8 +1128,8 @@ style attribute {
 }
 
 .form--feedback input:checked + .form__value--rounded, .form--feedback .is-selected .form__value--rounded {
-    background: #bd0a13;
-    border-color: #bd0a13;
+    background: #000;
+    border-color: #fff;
     color: #fff;
 }
 
@@ -1167,7 +1171,7 @@ style attribute {
     width: 100%;
 
     margin: 0;
-    padding-right: 0.5em;
+    padding: 0;
     text-align: left;
     margin-bottom: 0.5em;
 
@@ -1252,23 +1256,18 @@ input {
     outline: none;
 }
 
-select {
-  appearance: none;
-  width: 100%;
-  padding: 0px;
 
-  border-radius: 0px;
-}
 
 select {
 
-    background: #fff;
-    border: 1px solid #c7cfd6;
-    border-radius: 3px;
+    background: #000;
+    border: 2px solid #fff;
+    border-radius: 0;
     box-shadow: none;
     padding: 0.85em;
     transition: all 0.2s;
     width: 100%;
+    appearance: none;
 }
 
 .form--feedback .form__button {
@@ -1300,8 +1299,8 @@ select {
     line-height: 32px;
     letter-spacing: 1.6px;
     text-transform: uppercase;
-    width: 281px;
-    height: 63px;
+    width: 335px;
+    height: 55.188px;
     padding-block: 0;
     padding-inline: 0;
     border: 2px solid #fff;
@@ -1311,4 +1310,70 @@ select {
     background: #000;
     color: #fff;
     border: 2px solid #fff;
+    transition: 0.3s;
 }
+
+/*Страница другое*/
+.menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+.menu a{
+    background: transparent;
+    display: block;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+    height: 64px;
+    line-height: 64px;
+
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+
+    text-transform: uppercase;
+
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 2pc;
+}
+
+.menu li a:hover{
+    background: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+a.disabled {
+pointer-events: none; /* делаем элемент неактивным для взаимодействия */
+cursor: default; /*  курсор в виде стрелки */
+}
+
+/*для даты рождения*/
+.date-wrapper{
+    ::-webkit-calendar-picker-indicator { background: orange; }
+}
+
+.select-wrapper select{
+    border: 2px solid #fff;
+    background: #000;
+    color: #fff;
+    border-radius: 0;
+
+    width: 335px;
+    height: 55.188px;
+    padding: 0.85em;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(100%);
+}
+
