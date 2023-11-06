@@ -1119,18 +1119,28 @@ style attribute {
 }
 
 .form--feedback .form__value--rounded {
-    border: 1px solid #e1e6eb;
-    border-radius: 2em;
+    border: 2px solid #fff;
+    border-radius: 0;
     display: block;
-    padding: 0.85em 1em;
+    padding: 0.85em;
     text-align: center;
     transition: all 0.2s;
+
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
 }
 
+
+
 .form--feedback input:checked + .form__value--rounded, .form--feedback .is-selected .form__value--rounded {
-    background: #000;
+    background: #fff;
     border-color: #fff;
-    color: #fff;
+    color: #000;
 }
 
 .form--feedback .form__columns > .form__field {
@@ -1375,5 +1385,18 @@ cursor: default; /*  курсор в виде стрелки */
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
   filter: invert(100%);
+}
+
+.form__field-full{
+width:100%;
+}
+
+.checkbox-field{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 

@@ -79,11 +79,13 @@
                                         <div class="form__field-input">
                                             <div class="form__field-name">Пол</div>
                                             <div class="select-wrapper">
-                                                <select name="gender" >
+                                                <select name="gender">
                                                     <option selected disabled
->Выберите</option>
+                                                    >Выберите
+                                                    </option>
                                                     <option value="male"
->Мужчина</option>
+                                                    >Мужчина
+                                                    </option>
                                                     <option value="female">Женщина</option>
                                                     <option value="nonBinary">Другое</option>
                                                 </select>
@@ -93,7 +95,9 @@
 
                                 </div>
                                 <div class="form__columns">
-                                    <div class="form__field">
+                                    <div class="form__field" style="
+    width: 100%;
+">
                                         <div class="form__field-name">Телефон</div>
                                         <div class="form__field-input">
                                             <input type="tel" name="phone" value="+7" class="form__input">
@@ -102,7 +106,9 @@
 
                                 </div>
                                 <div class="form__columns">
-                                    <div class="form__field">
+                                    <div class="form__field" style="
+    width: 100%;
+">
                                         <div class="form__field-name">E-mail</div>
                                         <div class="form__field-input">
                                             <input type="email" name="email" value class="form__input">
@@ -112,37 +118,42 @@
                                 <div class="form__columns">
 
 
-                                    <div class="form__columns">
+                                    <div class="form__field" style="width: 100%;">
+                                    <div class="form__field-name">Частота рассылки</div>
+                                    <div class="form__field checkbox-field" style="width: 100%; justify-content: space-evenly; display: flex; flex-direction: row; flex-wrap: nowrap; align-items: center;">
 
 
-                                        <div class="form__option">
+                                        <div class="form__option" style="width:100%;">
 
                                             <label class="form__label">
-                                                <input type="checkbox" name="typeOfService" value="promotion"
+                                                <input type="checkbox" name="typeOfSubscription" value="news"
                                                        class="form__hidden">
-                                                <span class="form__value form__value--rounded">Продвижение сайта</span>
+                                                <span class="form__value form__value--rounded">Новости</span>
                                             </label>
                                         </div>
 
-                                        <div class="form__option">
+                                        <div class="form__option" style="width:100%;">
                                             <label class="form__label">
-                                                <input type="checkbox" name="typeOfService" value="creation"
+                                                <input type="checkbox" name="typeOfSubscription" value="pressReview"
                                                        class="form__hidden">
-                                                <span class="form__value form__value--rounded">Создание сайта</span>
+                                                <span class="form__value form__value--rounded">Дайджесты</span>
                                             </label>
                                         </div>
 
-                                        <div class="form__option">
+                                        <div class="form__option" style="width:100%;">
                                             <label class="form__label">
-                                                <input type="checkbox" name="typeOfService"
-                                                       value="contextualAdvertising"
+                                                <input type="checkbox" name="typeOfSubscription"
+                                                       value="Annonce"
                                                        class="form__hidden">
-                                                <span class="form__value form__value--rounded">Контекстная реклама</span>
+                                                <span class="form__value form__value--rounded">Анонсы</span>
                                             </label>
                                         </div>
 
 
                                     </div>
+
+
+                            </div>
 
                                 </div>
 
