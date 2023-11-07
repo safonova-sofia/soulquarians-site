@@ -5,11 +5,13 @@
     <title>Title</title>
     <style>
 
-        .gallery {
-  -moz-user-select: none; user-select: none;
+.gallery {
+  -moz-user-select: none;
+  user-select: none;
 }
 .gallery img {
-
+    max-width: 600px;
+  max-height: 600px;
   cursor: zoom-in;
 }
 .gallery img:focus {
@@ -25,6 +27,7 @@
   transform: translate(-50%, -50%);
   -moz-user-select: none; user-select: none;
 }
+
 .gallery img:focus ~ div {
   position: fixed;
   top: 0;
@@ -36,20 +39,22 @@
   cursor: zoom-out;
 }
 
+
+
     </style>
-    <div class="gallery">
-        <img src="http://уралзабор.рф/img/IMG_0322.jpg" alt="" />
-    <img src="http://уралзабор.рф/img/IMG_0321.jpg" alt="" tabindex="0"/>
-    <img src="http://уралзабор.рф/img/IMG_0322.jpg" alt="" tabindex="0"/>
-    <img src="http://уралзабор.рф/img/IMG_0321.jpg" alt="" tabindex="0"/>
-    <img src="http://уралзабор.рф/img/IMG_0322.jpg" alt="" tabindex="0"/>
-    <img src="http://уралзабор.рф/img/IMG_0321.jpg" alt="" tabindex="0"/>
-    <img src="http://уралзабор.рф/img/IMG_0322.jpg" alt="" tabindex="0"/>
-    <img src="http://уралзабор.рф/img/IMG_0321.jpg" alt="" tabindex="0"/>
-    <div></div>
-</div>
+
 </head>
 <body>
+<div class="gallery">
+  <img src="http://уралзабор.рф/img/IMG_0322.jpg" alt="" tabindex="0" /><div></div>
+</div>
+  <div class="gallery"><img src="http://уралзабор.рф/img/IMG_0321.jpg" alt="" tabindex="0" /><div></div></div>
+  <img src="http://уралзабор.рф/img/IMG_0322.jpg" alt="" tabindex="0" />
+  <img src="http://уралзабор.рф/img/IMG_0321.jpg" alt="" tabindex="0" />
+  <img src="http://уралзабор.рф/img/IMG_0322.jpg" alt="" tabindex="0" />
+  <img src="http://уралзабор.рф/img/IMG_0321.jpg" alt="" tabindex="0" />
+  <img src="http://уралзабор.рф/img/IMG_0322.jpg" alt="" tabindex="0" />
+  <img src="http://уралзабор.рф/img/IMG_0321.jpg" alt="" tabindex="0" />
 
 </body>
 </html>
