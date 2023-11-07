@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subscription | Soulquarians</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="../media/favicon.svg" type="image/svg">
+</head>
+<body>
+<div class="content-wrapper">
+    <nav class="navigation-primary-container sticky">
+        <a href="history.html"> <img src="../media/SOULQUARIANS.svg" alt="SOULQUARIANS" class="logo"></a>
+        <ul>
+            <li><a href="history.html">История</a></li>
+            <li><a href="#">Альбомы</a>
+                <ul>
+                    <li><a href="albums/Mama's Gun.html">Mama's Gun</a></li>
+                    <li><a href="albums/Things Fall Apart.html">Things Fall Apart</a></li>
+                    <li><a href="albums/Like Water for Chocolate.html">Like Water for Chocolate</a></li>
+                    <li><a href="albums/Voodoo.html">Voodoo</a></li>
+                </ul>
+
+            </li>
+            <li><a href="#"><u>Связь</u></a>
+                <ul>
+                    <li><a href="newsletter.html"><u>Подписка</u></a></li>
+                    <li><a href="contact.html">Сотрудничество</a></li>
+                </ul>
+            </li>
+            <li><a href="others.html">Другое</a></li>
+        </ul>
+    </nav>
+    <div class="components">
+        <div></div>
+        <article class="article-wrapper">
+
+            <div class="form form--feedback">
+                <div class="form__content">
+                    <form action="https://www.google.com/search?q=" id="UserEnter" name="UserEnter" target="_blank"
+                          method="get">
+
+                        <div class="form__fields">
+                            <div class="form__section">
+
+                                <h2 class="form__title form__title--medium">Оформите нашу рассылку!</h2>
+                                <div class="form__field">
+
+                                    <div class="form__field-input" hidden>
+                                        <input type="text" name="q" value="search" class="form__input">
+                                    </div>
+                                </div>
+                                <div class="form__columns">
+                                    <div class="form__field">
+                                        <div class="form__field-name">Имя</div>
+                                        <div class="form__field-input">
+                                            <input type="text" name="name" value class="form__input">
+                                        </div>
+                                    </div>
+
+                                    <div class="form__field">
+                                        <div class="form__field-name">Фамилия</div>
+                                        <div class="form__field-input">
+                                            <input type="text" name="surname" value class="form__input">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="form__columns">
+
+                                    <div class="form__field">
+                                        <div class="form__field-name">Дата рождения</div>
+                                        <div class="form__field-input">
+                                            <input type="date" name="birthday" max="2023-11-08" value
+                                                   class="form__input">
+                                        </div>
+                                    </div>
+
+                                    <div class="form__field">
+                                        <div class="form__field-input">
+                                            <div class="form__field-name">Пол</div>
+                                            <div class="select-wrapper">
+                                                <select name="gender">
+                                                    <option selected disabled
+                                                    >Выберите
+                                                    </option>
+                                                    <option value="male"
+                                                    >Мужчина
+                                                    </option>
+                                                    <option value="female">Женщина</option>
+                                                    <option value="nonBinary">Другое</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form__columns">
+                                    <div class="form__field" style="
+    width: 100%;
+">
+                                        <div class="form__field-name">Телефон</div>
+                                        <div class="form__field-input">
+                                            <input type="tel" name="phone" value="+7" class="form__input">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form__columns">
+                                    <div class="form__field" style="
+    width: 100%;
+">
+                                        <div class="form__field-name">E-mail</div>
+                                        <div class="form__field-input">
+                                            <input type="email" name="email" value class="form__input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__columns">
+
+
+                                    <div class="form__field" style="width: 100%;">
+                                    <div class="form__field-name">Частота рассылки</div>
+                                    <div class="form__field checkbox-field" style="width: 100%; justify-content: space-evenly; display: flex; flex-direction: row; flex-wrap: nowrap; align-items: center;">
+
+
+                                        <div class="form__option" style="width:100%;">
+
+                                            <label class="form__label">
+                                                <input type="checkbox" name="typeOfSubscription" value="news"
+                                                       class="form__hidden">
+                                                <span class="form__value form__value--rounded">Новости</span>
+                                            </label>
+                                        </div>
+
+                                        <div class="form__option" style="width:100%;">
+                                            <label class="form__label">
+                                                <input type="checkbox" name="typeOfSubscription" value="pressReview"
+                                                       class="form__hidden">
+                                                <span class="form__value form__value--rounded">Дайджесты</span>
+                                            </label>
+                                        </div>
+
+                                        <div class="form__option" style="width:100%;">
+                                            <label class="form__label">
+                                                <input type="checkbox" name="typeOfSubscription"
+                                                       value="Annonce"
+                                                       class="form__hidden">
+                                                <span class="form__value form__value--rounded">Анонсы</span>
+                                            </label>
+                                        </div>
+
+
+                                    </div>
+
+
+                            </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="form__buttons">
+                            <button class="form__button" type="submit" name="submit">ОТПРАВИТЬ</button>
+
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </article>
+
+        <footer class="footer">
+            <div class="col-1">
+                <img src="../../media/SOULQUARIANS.svg">
+                <p>© 2023 SOULQUARIANS. <br> ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="col-2">
+                <h3 class="footer-headline">Навигация</h3>
+                <a href="history.html">История</a>
+                <a href="#">Альбом</a>
+                <a href="contact.html">Связь</a>
+                <a href="others.html">Другое</a>
+            </div>
+            <div class="col-3">
+                <h3 class="footer-headline">Контакты</h3>
+                <p>По ТЕЛЕФОНУ</p>
+                <p>+7 (999) 999 99 99</p>
+                <p>ПО почте</p>
+                <p>soulmail@gmail.com</p>
+
+            </div>
+            <div class="col-4">
+                <h3 class="footer-headline" style="text-align:center;">Подписка</h3>
+                <form class="footer-subscription" action="newsletter.html" target="_self">
+                    <input type="email" class="footer-sub-input" placeholder="ВАША ПОЧТА" required>
+                    <br>
+                    <button type="submit" class="footer-sub-button">Подписаться</button>
+                </form>
+            </div>
+        </footer>
+
+    </div>
+</div>
+
+
+</body>
+</html>
