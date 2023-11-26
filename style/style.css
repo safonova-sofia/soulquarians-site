@@ -1473,7 +1473,7 @@ width:100%;
 
 .inner_page_nav{
     box-sizing: border-box;
-        display: block;
+    display: block;
 
 }
 
@@ -1522,3 +1522,18 @@ color: #fff;
     font-weight: 900;
     line-height: 16px;
 }
+
+
+
+.show {
+    opacity: 1 !important;
+    transition: 1s;
+
+}
+
+.hide{
+    opacity: 0 ;
+    transition: 1s;
+
+}
+
