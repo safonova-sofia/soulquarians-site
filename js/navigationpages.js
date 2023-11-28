@@ -1,24 +1,18 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var triggerElement = document.getElementById('triggerElement');
+    var navigationElement = document.getElementById('navigationElement');
     var recordingElement = document.getElementById('recording_block');
+    var linksElement = document.getElementById('links_block');
 window.addEventListener('scroll', function () {
 
-// Проверяем, находится ли верхняя часть triggerElement в видимой области окна
-
-    var recordingBlockAbsolutePosition = triggerElement.offsetTop;
-
-
+    var recordingBlockAbsolutePosition = recordingElement.offsetTop;
+    var linksBlockAbsolutePosition = linksElement.offsetTop;
     var st = document.documentElement.scrollTop;
 
-
-
-    if (st > recordingBlockAbsolutePosition) {
-        triggerElement.classList.add('show');
+    if ((st > recordingBlockAbsolutePosition) && (st < linksBlockAbsolutePosition)){
+        navigationElement.classList.add('show_nav');
     } else {
-
-        triggerElement.classList.add('hide');
-        triggerElement.classList.remove('show');
+        navigationElement.classList.remove('show_nav');
+        navigationElement.classList.add('hide_nav');
     }
-
   });
-  });
+});
