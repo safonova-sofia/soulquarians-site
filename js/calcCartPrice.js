@@ -12,7 +12,7 @@ function calcCartPriceAndDelivery() {
 	priceElements.forEach(function (item) {
 		// Находим количество товара
 		const amountEl = item.closest('.cart-item').querySelector('[data-counter]');
-		console.log(amountEl);
+		//console.log(amountEl);
 		// Добавляем стоимость товара в общую стоимость (кол-во * цену)
 		priceTotal += parseInt(item.innerText) * parseInt(amountEl.innerText);
 	});

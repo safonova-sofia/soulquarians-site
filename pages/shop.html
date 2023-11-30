@@ -86,13 +86,16 @@
 					<div id="order-form" class="card-body border-top none">
 						<h4 class="card-title">Оформить заказ</h4>
 						<form action="https://www.google.com/search?" target="_blank">
-                            <div class="form-input">
                             <p hidden="hidden">Для поисковика:<input hidden="hidden" name="q" value="search"></p>
                             <p hidden="hidden">Общая цена:<input hidden="hidden" name="price" value="some-price"></p>
+                            <div class="form-input" id="input-container">
 
-                            <input hidden="hidden" type="text" name="album-artist-counter" value="albm-art-count">
+
+                                <!---<p hidden="hidden"><input hidden="hidden" name="CHECK" value="ANSWER"></p>
+
+                            <input hidden="hidden" type="text" name="album-artist-counter" value="albm-art-count">-->
                             <!-- document.getElementsByClassName('total-price')[0].innerHTML -->
-                            </div>>
+                            </div>
 							<div class="form-group">
 								<input type="text" class="form-control" placeholder="Ваш номер телефона" required>
 							</div>
@@ -146,6 +149,6 @@
 <script src="../js/toggleCartStatus.js"></script>
 <script src="../js/cart.js"></script>
 <script src="../js/calcCartPrice.js"></script>
-<script src="../js/formPostMethod.js"></script>
+
 </body>
 </html>
