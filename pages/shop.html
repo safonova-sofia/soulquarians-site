@@ -2,9 +2,153 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Shop | Soulquarians</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="../media/favicon.svg" type="image/svg">
 </head>
 <body>
+<div class="content-wrapper">
+    <nav class="navigation-primary-container sticky">
+        <a href="../index.html"> <img src="../media/SOULQUARIANS.svg" alt="SOULQUARIANS" class="logo"></a>
+        <ul>
+            <li><a href="../index.html">История</a></li>
+            <li><a href="#">Альбомы</a>
+                <ul>
+                    <li><a href="albums/Mama's Gun.html">Mama's Gun</a></li>
+                    <li><a href="albums/Things Fall Apart.html">Things Fall Apart</a></li>
+                    <li><a href="albums/Like Water for Chocolate.html">Like Water for Chocolate</a></li>
+                    <li><a href="albums/Voodoo.html">Voodoo</a></li>
+                    <li><a href="albums/1st Born Second.html">1st Born Second</a></li>
+                </ul>
+
+            </li>
+            <li><a href="shop.html"><u>Магазин</u></a></li>
+            <li><a href="#">Связь</a>
+                <ul>
+                    <li><a href="newsletter.html">Подписка</a></li>
+                    <li><a href="contact.html">Сотрудничество</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="components">
+        <div></div>
+        <header class="header-shop">
+		<div class="container ">
+			<div class="title-wrapper" style="text-align:center">
+                <h2 class="title--shop">Магазин</h2>
+            </div>
+
+		</div>
+	</header>
+
+	<div class="container mb-5">
+		<div class="row">
+
+			<!-- Товары -->
+			<div class="col-md-8">
+				<div class="row" id="products-container">
+
+				</div>
+			</div>
+
+			<!-- Корзина -->
+			<div class="col-md-4">
+
+				<!-- Корзина -->
+				<div class="card mb-4" style="border: none;">
+					<div class="card-body">
+						<h5 class="card-title">Ваш заказ</h5>
+
+							<div data-cart-empty class="alert alert-secondary alert-text" role="alert">
+							Корзина пуста
+						</div>
+
+						<!-- cart.js-wrapper -->
+						<div class="cart-wrapper">
+
+						</div>
+						<!-- // cart.js-wrapper -->
+
+						<!-- Стоимость заказа -->
+						<div class="cart-total">
+
+							<p><span class="h5 total-text">Итого:</span>
+								<span class="total-price ">0</span>
+								<span class="rouble ">₽</span></p>
+						</div>
+						<!-- // Стоимость заказа -->
+
+					</div>
+
+					<!-- Оформить заказ -->
+					<div id="order-form" class="card-body border-top none">
+						<h4 class="card-title">Оформить заказ</h4>
+						<form action="https://www.google.com/search?" target="_blank">
+                            <p hidden="hidden">Для поисковика:<input hidden="hidden" name="q" value="search"></p>
+                            <p hidden="hidden">Общая цена:<input hidden="hidden" name="price" value="some-price"></p>
+                            <div class="form-input" id="input-container">
+
+
+                                <!---<p hidden="hidden"><input hidden="hidden" name="CHECK" value="ANSWER"></p>
+
+                            <input hidden="hidden" type="text" name="album-artist-counter" value="albm-art-count">-->
+                            <!-- document.getElementsByClassName('total-price')[0].innerHTML -->
+                            </div>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Ваш номер телефона" required>
+							</div>
+							<button type="submit" class="btn btn-primary">Заказать</button>
+						</form>
+					</div>
+					<!-- // Оформить заказ -->
+
+				</div>
+				<!-- // Корзина -->
+
+			</div>
+
+		</div>
+	</div>
+
+        <footer class="footer">
+            <div class="column_footer-1">
+                <img src="../media/SOULQUARIANS.svg">
+                <p>© 2023 SOULQUARIANS. <br> ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="column_footer-2">
+                <h3 class="footer-headline">Навигация</h3>
+                <a href="../index.html">История</a>
+                <a href="#">Альбом</a>
+                <a href="shop.html">Магазин</a>
+                <a href="contact.html">Связь</a>
+
+            </div>
+            <div class="column_footer-3">
+                <h3 class="footer-headline">Контакты</h3>
+                <p>По ТЕЛЕФОНУ</p>
+                <p>+7 (999) 999 99 99</p>
+                <p>ПО почте</p>
+                <p><a href="https://www.google.com/intl/ru/gmail/about/">soulmail@gmail.com</a></p>
+
+            </div>
+            <div class="column_footer-4">
+                <h3 class="footer-headline" style="text-align:center;">Подписка</h3>
+                <form class="footer-subscription" action="newsletter.html" target="_self">
+                    <input type="email" class="footer-sub-input" placeholder="ВАША ПОЧТА" required>
+                    <br>
+                    <button type="submit" class="footer-sub-button">Подписаться</button>
+                </form>
+            </div>
+        </footer>
+
+    </div>
+</div>
+<script src="../js/renderProducts.js"></script>
+<script src="../js/toggleCartStatus.js"></script>
+<script src="../js/cart.js"></script>
+<script src="../js/calcCartPrice.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,79 @@
+[
+	{
+		"id": 1,
+		"title": "Things Fall Apart",
+		"artist": "The Roots",
+		"price": 4400,
+		"imgSrc": "things_fall_apart__cover.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Black on Both Sides",
+		"artist": "Mos Def",
+		"price": 4800,
+		"imgSrc": "black_on_both_sides__cover.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Amplified",
+		"artist": "Q-Tip",
+		"price": 5200,
+		"imgSrc": "amplified__cover.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Voodoo",
+		"artist": "D'Angelo",
+		"price": 3800,
+		"imgSrc": "voodoo__cover.jpg"
+	},
+		{
+		"id": 5,
+		"title": "Like Water for Chocolate",
+		"artist": "Common",
+		"price": 4000,
+		"imgSrc": "like_water_for_chocolate__cover.jpg"
+	},
+	{
+		"id": 6,
+		"title": "Fantastic, Vol. 2",
+		"artist": "Slum Village",
+		"price": 5400,
+		"imgSrc": "fantastic_vol_2__cover.jpg"
+	},
+	{
+		"id": 7,
+		"title": "Mama's Gun",
+		"artist": "Эрика Баду",
+		"price": 4100,
+		"imgSrc": "mama's_gun__cover.jpg"
+	},
+	{
+		"id": 8,
+		"title": "1st Born Second",
+		"artist": "Билал",
+		"price": 5400,
+		"imgSrc": "1st_born_second__cover.jpg"
+	},
+	{
+		"id": 9,
+		"title": "Quality",
+		"artist": "Талиб Квели",
+		"price": 3600,
+		"imgSrc": "quality__cover.jpg"
+	},
+	{
+		"id": 10,
+		"title": "Phrenology",
+		"artist": "The Roots",
+		"price": 5000,
+		"imgSrc": "phrenology__cover.jpg"
+	},
+	{
+		"id": 11,
+		"title": "Electric Circus",
+		"artist": "Common",
+		"price": 3900,
+		"imgSrc": "electric_circus__cover.jpg"
+	}
+]
