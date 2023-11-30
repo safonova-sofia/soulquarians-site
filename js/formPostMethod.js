@@ -1,4 +1,11 @@
-function calcCartPriceAndDelivery() {
+/*function formPostMethod() {
+    let priceElement = document.getElementsByClassName('total-price')[0].innerHTML;
+    document.getElementsByName('price')[0].value = priceElement;
+
+
+}*/
+
+function formPostMethod() {
 	const cartWrapper = document.querySelector('.cart-wrapper');
 	const priceElements = cartWrapper.querySelectorAll('.price__currency');
 	const totalPriceEl = document.querySelector('.total-price');
@@ -16,24 +23,3 @@ function calcCartPriceAndDelivery() {
 		// Добавляем стоимость товара в общую стоимость (кол-во * цену)
 		priceTotal += parseInt(item.innerText) * parseInt(amountEl.innerText);
 	});
-
-	// Отображаем цену на странице
-	totalPriceEl.innerText = priceTotal;
-	document.getElementsByName('price')[0].value = priceTotal;
-
-	// Скрываем / Показываем блок со стоимостью доставки
-	/*if (priceTotal > 0) {
-		cartDelivery.classList.remove('none');
-	} else {
-		cartDelivery.classList.add('none');
-	}
-
-	// Указываем стоимость доставки
-	if (priceTotal >= 600) {
-		deliveryCost.classList.add('free');
-		deliveryCost.innerText = 'бесплатно';
-	} else {
-		deliveryCost.classList.remove('free');
-		deliveryCost.innerText = '250 ₽';
-	}*/
-}
