@@ -24,6 +24,16 @@ function renderProducts(productsArray) {
 
 
 								<div class="details-wrapper">
+
+								    <!-- Счетчик -->
+									<div class="items counter-wrapper" hidden>
+
+										<div class="items__current" data-counter>1</div>
+
+									</div>
+									<!-- // Счетчик -->
+
+
 									<div class="price">
 										<div class="price__currency">${item.price} ₽</div>
 									</div>
