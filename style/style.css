@@ -66,10 +66,11 @@ nav ul li{
 
 
 nav ul li a{
-    padding-top: 15px;
+    /*padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 98px;
-    padding-right: 98px;
+    padding-right: 98px;*/
+    padding: 1vw 5vw;
 
     display: block;
 
@@ -274,7 +275,7 @@ nav.navigation-primary-container ul .navigation-primary-item {
     font-weight: 900;
     line-height: normal;
     text-transform: uppercase;
-    font-size: 180px;
+    font-size: 12vw;
     transition: 0.5s;
 }
 
@@ -726,7 +727,7 @@ input[type="email" i] {
 
 .footer-sub-button{
     color: #000;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -2015,7 +2016,7 @@ input[type="text"][disabled] {
     align-items: flex-end;
     justify-content: center;
 }
-
+/*
 @media(max-width: 767px ) {
     .content-block {
          font-size: calc((var(--normal-text-size-value) - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
@@ -2032,5 +2033,39 @@ input[type="text"][disabled] {
     .content-block {
         font-size:calc((var(--normal-text-size-value) * 1rem);
     }
+}*/
+
+
+
+@media (min-width: 1440px) {
+  .article-wrapper .inner-wrapper {
+    width: 70%;
+  }
 }
 
+@media (min-width: 1024px)
+{
+.article-wrapper .inner-wrapper {
+    width: 60%;
+  }
+nav ul li a {
+    padding: 1vw 4vw;
+    font-size: 14px;
+}
+
+nav .logo {
+    width: 70%;
+    }
+
+.blockquote p {
+    font-size: 32px;
+}
+
+.blockquote cite {
+    font-size: 30px;
+    }
+
+.discography {
+    width: 100%;
+    }
+}
