@@ -2034,16 +2034,44 @@ input[type="text"][disabled] {
         font-size:calc((var(--normal-text-size-value) * 1rem);
     }
 }*/
+@media (max-width: 1920px) {
+    .text-container h1 {
+    font-size: 10vw;
+    }
 
-
-
-@media (min-width: 1440px) {
-  .article-wrapper .inner-wrapper {
-    width: 70%;
-  }
+    .video-container video{
+    height:44.22vw;
+    }
 }
 
-@media (min-width: 1024px)
+
+@media (max-width: 1440px) {
+  .article-wrapper .inner-wrapper {
+    width: 50%;
+  }
+
+  .text-container h1 {
+    font-size: 10vw;
+    }
+
+  .blockquote p {
+    font-size: 40px;
+    }
+
+  nav .logo {
+    width: 80%;
+   }
+
+    nav ul li a {
+    font-size: 16px;
+    }
+
+
+}
+
+
+
+@media (max-width: 1024px)
 {
 .article-wrapper .inner-wrapper {
     width: 60%;
