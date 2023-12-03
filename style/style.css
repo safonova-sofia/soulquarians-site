@@ -2,6 +2,12 @@
     --normal-text-size-value: 1;
 }
 
+@font-face{
+font-family: "Suprapower SE Heavy";
+src:url('../fonts/Hanken Design Co - Suprapower SE Heavy.otf') format('otf');
+}
+
+
 .navigation-primary-container{
     top:0;
     left:0;
@@ -270,7 +276,7 @@ nav.navigation-primary-container ul .navigation-primary-item {
 
 .text-container h1{
     color: #fff;
-    font-family: Suprapower SE Heavy;
+    font-family:"Suprapower SE Heavy";
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -793,7 +799,7 @@ input[type="email" i] {
 
 .title--album{
     color: #FFF;
-    font-family: Suprapower SE Heavy;
+    font-family: "Suprapower SE Heavy";
     font-size: 150px;
     font-style: normal;
     font-weight: 900;
