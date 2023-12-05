@@ -2325,7 +2325,14 @@ font-size: 14px;
     font-size: 14px;
     }
 
+.title--album {
 
+    font-size: 90px;
+    }
+
+    .subtitle--album {
+    font-size: 48px;
+    }
 }
 
 
@@ -2403,7 +2410,7 @@ nav ul li ul li a {
 }
 
 .col-md-4 {
-    width: 100% !important;
+    width: 80%;
 }
 
 .col-md-6 {
@@ -2479,9 +2486,13 @@ nav ul li ul li a {
     .column_footer-1 img {
     width: 60%;
 }
+
+.quote p {
+    font-size: 12px;
+}
 }
 
-@media (min-width: 769px) and (max-width:960px){
+@media (min-width: 768px) and (max-width:960px){
 nav ul li a {
     padding: 0.8vw 3.5vw;
     }
@@ -2636,6 +2647,7 @@ nav .logo {
 
 .column_footer-3 p{
     font-size: 12px;
+    margin-bottom: 12px;
 }
 
 .column_footer-4 {
@@ -2653,7 +2665,7 @@ nav .logo {
 }
 
 .column_footer-1 img {
-    width: 50%;
+    width: 60%;
 }
 
 .column_footer-3 p a {
@@ -2661,21 +2673,67 @@ nav .logo {
 }
 
 .footer-sub-input {
-    width: 231px;
-    height: 39px;
+    width: 170px;
+    height: 40px;
 }
 
 .footer-sub-button {
-    width: 235px;
-    height: 43px;
-    letter-spacing: 1px;
+        width: 174px;
+    height: 44px;
+    letter-spacing: 0.3px;
 }
 
 .footer {
-    padding: 20px 20px;
+    padding: 40px 20px;
     }
 
+.block-content {
+    font-size: 14px;
+}
 
+
+/*.article-wrapper .inner-wrapper {
+    width: 90%;
+}*/
+
+.title--album {
+    font-size: 80px;
+}
+
+.subtitle--album {
+    font-size: 40px;
+    }
+.reviews {
+    font-size: 18px;
+    }
+
+.reviews th {
+    padding: 12px 0;
+    }
+
+    .reviews td {
+     padding: 10px 0;
+}
+
+.reviews {
+    width: 100%;
+    }
+
+    .link-list-title {
+    font-size: 24px;
+    }
+
+    .link-list-title li a {
+    font-size: 14px;
+    }
+
+    .reviews td a {
+    font-size: 16px;
+    }
+
+    .title--shop {
+    font-size: 120px;
+    }
 }
 /*
 @media (min-width: 768px){
