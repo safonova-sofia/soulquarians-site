@@ -2102,11 +2102,13 @@ input[type="text"][disabled] {
     .inner-wrapper {
     width: 55%;
     }
-}
-.page_nav {
+
+    .page_nav {
     left: 1355px;
     top: 660px;
 }
+}
+
 
 
 /*@media (max-width: 1440px) {
@@ -2891,6 +2893,7 @@ nav ul li ul li a {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-items: center;
     align-items: center;
 }
 .column_footer-3 {
