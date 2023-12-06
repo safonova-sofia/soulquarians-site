@@ -22,18 +22,12 @@ function renderProducts(productsArray) {
 							    <h4 class="item-title">${item.artist}</h4>
 								<h4 class="item-subtitle"><i>${item.title}</i></h4>
 
-
 								<div class="details-wrapper">
-
-								    <!-- Счетчик -->
+								    //<!-- Счетчик -->
 									<div class="items counter-wrapper" hidden>
-
 										<div class="items__current" data-counter>1</div>
-
 									</div>
-									<!-- // Счетчик -->
-
-
+									//<!--  Счетчик -->
 									<div class="price">
 										<div class="price__currency">${item.price} ₽</div>
 									</div>
